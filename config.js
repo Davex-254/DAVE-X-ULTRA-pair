@@ -8,7 +8,7 @@ require('dotenv').config({
 
 module.exports = {
     PORT: process.env.PORT || 50900,
-    SESSION_PREFIX: process.env.SESSION_PREFIX || "Gifted~",
+    SESSION_PREFIX: process.env.SESSION_PREFIX || "DAVE-X:~",
     GC_JID: process.env.GC_JID || "GuS93JhyfyE56LOV3ZJTFZ",
     DATABASE_URL: process.env.DATABASE_URL || "",
     BOT_REPO: process.env.BOT_REPO || "https://github.com/mauricegift/atassa",
