@@ -12,6 +12,6 @@ module.exports = {
     GC_JID: process.env.GC_JID || "CZHbDNcNw147fDPcVo33H7?mlu",
     DATABASE_URL: process.env.DATABASE_URL || "",
     BOT_REPO: process.env.BOT_REPO || "https://github.com/DaveTech-Incr/DAVE-X",
-    WA_CHANNEL: process.env.WA_CHANNEL || "https://whatsapp.com/channel/0029VbCpYtZLtOj5LDuj7Q1p",
+    WA_CHANNEL: process.env.WA_CHANNEL || "https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g",
     MSG_FOOTER: process.env.MSG_FOOTER || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Dave Tech*",
 };
