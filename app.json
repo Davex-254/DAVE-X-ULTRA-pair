@@ -2,8 +2,8 @@
     "name": "Gifted Session Generator",
     "description": "Web Session Generator",
     "logo": "https://files.catbox.moe/52699c.jpg",
-    "repository": "https://github.com/mauricegift/gifted-sess",
-    "keywords": ["Gifted-Tech"],
+    "repository": "https://github.com/DaveTech-Incr/session",
+    "keywords": ["Dave-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
