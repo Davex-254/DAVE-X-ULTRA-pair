@@ -1,25 +1,27 @@
 {
-  "name": "atassa-session",
-  "main": "./index.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name giftedsess",
-    "stop": "pm2 stop giftedsess",
-    "restart": "pm2 restart giftedsess"
+    "name": "junex-ultra-session",
+    "description": "JuneX Ultra WhatsApp session generator",
+    "version": "1.0.0",
+    "main": "./index.js",
+  "engines" : { 
+    "npm" : ">=9.7.2",
+    "node" : ">=20.0.0"
+    },
+    "scripts": {
+    "start": "node index.js"
   },
-  "author": "Gifted Tech",
-  "license": "MIT",
+  "author": "JuneX Ultra",
+  "license": "GPL-3.0",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:baileys@6.7.21",
-    "body-parser": "^2.2.2",
-    "dotenv": "^17.3.1",
-    "express": "*",
-    "gifted-btns": "*",
-    "mongoose": "^9.3.0",
-    "path": "*",
-    "pg": "^8.20.0",
-    "pino": "^10.3.1",
-    "pm2": "*",
-    "qrcode": "^1.5.4"
-  }
+    "@whiskeysockets/baileys": "^6.7.21",
+    "qrcode": "^1.5.3",
+    "awesome-phonenumber": "^2.64.0",
+    "pino": "^8.1.0",
+    "phone" : "3.1.30",
+    "jimp" : "1.6.0",
+    "body-parser": "^1.20.1",
+    "pastebin-js": "^1.0.6",
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+   }
 }
